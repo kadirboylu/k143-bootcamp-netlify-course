@@ -16,8 +16,10 @@ const Home = () => {
         <li>Deploy via Netlify-CLI</li>
       </ul>
 
-      {/* https://app.netlify.com/start/deploy?repository= */}
-      <a className="hover:bg-gray-700" href="https://app.netlify.com/">
+      <a
+        className="hover:bg-gray-700"
+        href="https://app.netlify.com/start/deploy?repository=https://github.com/kadirboylu/k143-bootcamp-netlify-course"
+      >
         <img
           src="https://www.netlify.com/img/deploy/button.svg"
           alt="netlify"

@@ -2,6 +2,10 @@
 
 My purpose in organizing this course is to introduce netfliy to bootcamp participants and help them use it in their react assignments.
 
+[Netlify Crash Course](https://netlify-crash-course.netlify.app/)
+
+# [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/kadirboylu/k143-bootcamp-netlify-course)
+
 - [Netlify Crash Course](https://netlify-crash-course.netlify.app/)
 
 ## This course includes deployment methods such as:
@@ -9,6 +13,7 @@ My purpose in organizing this course is to introduce netfliy to bootcamp partici
 - Manual Deploy
 - Deploy existing project via GitHub repository
 - Deploy via Netlify-CLI
+- Deploying with the Click of a Button
 
 ## Usage
 
