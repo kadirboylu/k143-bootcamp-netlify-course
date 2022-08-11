@@ -32,4 +32,5 @@ npm run build
 
 - [Netlify CLI](https://docs.netlify.com/cli/get-started/)
 - [Deploy Button](https://www.netlify.com/blog/2021/12/26/deploying-with-the-click-of-a-button/)
+- [File-based configuration](https://docs.netlify.com/configure-builds/file-based-configuration/)
 - [Wikipedia](https://en.wikipedia.org/wiki/Netlify)
