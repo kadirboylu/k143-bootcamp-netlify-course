@@ -1,13 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  @apply w-full p-3 pt-12 bg-gray-700 text-white font-mono;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* App.jsx */
+.app {
+  @apply max-w-[500px] m-auto mb-20 pt-5 pb-10 flex flex-col border rounded-md;
 }
+/* ---- */
+
+/* Header Component */
+header {
+  @apply text-center w-full my-5;
+}
+
+h1 {
+  @apply text-3xl font-bold;
+}
+
+nav {
+  @apply flex items-center justify-center  py-1 my-3 border-b;
+}
+
+a {
+  @apply mx-2 p-1 rounded-md font-bold hover:bg-white hover:text-gray-700 flex-1 transition-all;
+}
+/* ---- */
+
+/* Code component */
+code {
+  @apply w-full  inline-flex justify-between my-2 px-4 py-1 bg-gray-900 rounded-md;
+}
+
+button {
+  @apply text-gray-100 active:text-gray-900 transition-all;
+}
+/* ---- */
+
+/* Github Repo */
+.home {
+  @apply px-5 w-full;
+}
+/* ---- */
+
+/* Netlify CLI */
+.netlify-cli {
+  @apply px-5 w-full;
+}
+
+h2:first-child {
+  @apply text-xl mt-0  text-justify;
+}
+
+h2 {
+  @apply text-xl font-bold my-2 text-justify;
+}
+
+h3 {
+  @apply text-lg font-bold my-2 text-justify;
+}
+
+p {
+  @apply text-justify my-1 break-words;
+}
+
+ul {
+  @apply list-disc px-5 my-2;
+}
+/* ---- */
+
+/* Manual Deploy */
+.manual-deploy {
+  @apply px-5 w-full;
+}
+figcaption {
+  @apply text-center text-sm my-2 text-gray-400;
+}
+/* ---- */
+
+/* Github Repo */
+.github-repo {
+  @apply px-5 w-full;
+}
+/* ---- */
