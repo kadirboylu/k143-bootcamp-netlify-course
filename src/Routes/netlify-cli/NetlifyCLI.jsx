@@ -56,7 +56,6 @@ const NetlifyCLI = () => {
       {/* Live dev server */}
       <h2>6. Live dev server</h2>
       <Code code="netlify dev --live" />
-      <p>If you want to change the port, create a netlify.toml file.</p>
       {/* Deploy */}
       <h2>7. Deploy</h2>
       <h3>Build for production</h3>
